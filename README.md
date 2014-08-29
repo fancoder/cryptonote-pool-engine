@@ -350,6 +350,7 @@ Explanation for each field:
         }
     }
 }
+```
 
 #### 3) [Optional] Configure cryptonote-easy-miner for your pool
 Your miners that are Windows users can use [cryptonote-easy-miner](https://github.com/zone117x/cryptonote-easy-miner)
