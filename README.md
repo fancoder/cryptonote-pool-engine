@@ -350,6 +350,13 @@ Explanation for each field:
         }
     }
 ```
+##### 2.1) Configuration for Dashcoin
+Use the values below for Dashcoin pool:
+```    "coin": "dashcoin",
+    "symbol": "DSH",
+    "coinUnits": 100000000,
+    "coinDifficultyTarget": 120,
+```
 
 #### 3) [Optional] Configure cryptonote-easy-miner for your pool
 Your miners that are Windows users can use [cryptonote-easy-miner](https://github.com/zone117x/cryptonote-easy-miner)
