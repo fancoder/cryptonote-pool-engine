@@ -352,7 +352,8 @@ Explanation for each field:
 ```
 ##### 2.1) Configuration for Dashcoin
 Use the values below for Dashcoin pool:
-```    "coin": "dashcoin",
+```javascript
+    "coin": "dashcoin",
     "symbol": "DSH",
     "coinUnits": 100000000,
     "coinDifficultyTarget": 120,
