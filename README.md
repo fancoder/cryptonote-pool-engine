@@ -78,6 +78,7 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 
 #### Pools Using This Software
 
+* http://minepool.ch
 * http://xminingpool.com
 * http://extremepool.org
 * http://noclaymorefee.com
