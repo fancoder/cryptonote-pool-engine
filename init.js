@@ -139,6 +139,9 @@ function spawnPoolWorkers(){
         return;
     }
 
+    if (!config.poolServer.hasOwnProperty("mergedMiningMinVersion")) {
+      config.poolServer.mergedMiningMinVersion = 2;
+    }
 
     var numForks = (function(){
         if (!config.poolServer.clusterForks)

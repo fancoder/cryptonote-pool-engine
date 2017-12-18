@@ -182,6 +182,9 @@ Explanation for each field:
     /* Poll RPC daemons for new blocks every this many milliseconds. */
     "blockRefreshInterval": 1000,
 
+    /* Enable merged mining feature starting from this version. */
+    "mergedMiningMinVersion": "99",
+
     /* How many seconds until we consider a miner disconnected. */
     "minerTimeout": 900,
 
