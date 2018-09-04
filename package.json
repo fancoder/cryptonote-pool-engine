@@ -1,23 +1,26 @@
 {
-    "name": "cryptonote-universal-pool",
-    "version": "0.0.1",
+    "name": "cryptonote-nodejs-pool",
+    "version": "1.2.10",
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "Daniel Vandal",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fancoder/cryptonote-universal-pool.git"
+        "url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
     },
     "dependencies": {
         "bignum": "*",
-        "async": "*",
+        "async": "1",
         "redis": "*",
         "cli-color": "*",
         "dateformat": "*",
         "base58-native": "*",
-        "multi-hashing": "git://github.com/fancoder/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/fancoder/node-cryptonote-util.git"
+        "nodemailer": "2.7.2",
+        "nodemailer-sendmail-transport" : "*",
+        "mailgun.js": "*",
+        "cryptonight-hashing": "git://github.com/dvandal/node-cryptonight-hashing",
+        "cryptonote-util": "git://github.com/dvandal/node-cryptonote-util#xmr-Nan-2.0"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=4.0"
     }
 }
